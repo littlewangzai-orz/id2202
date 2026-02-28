@@ -1,0 +1,26 @@
+{
+  "name": "scala",
+  "argv": [
+    "/home/yihche/.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.5.2/scala3-3.5.2-x86_64-pc-linux.tar.gz/scala3-3.5.2-x86_64-pc-linux/bin/scala-cli",
+    "--cli-default-scala-version",
+    "3.5.2",
+    "--repository",
+    "file:///home/yihche/.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.5.2/scala3-3.5.2-x86_64-pc-linux.tar.gz/scala3-3.5.2-x86_64-pc-linux/maven2",
+    "--prog-name",
+    "scala",
+    "bsp",
+    "--json-options",
+    "/home/yihche/ID2202/module0/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/yihche/ID2202/module0/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/yihche/ID2202/module0/.scala-build/ide-envs.json",
+    "/home/yihche/ID2202/module0/PrimesApp.scala"
+  ],
+  "version": "1.4.3",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
