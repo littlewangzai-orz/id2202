@@ -6,28 +6,29 @@ This project is ID2202's assignment, whose goal is to build a simple compiler by
 # Stucture of the project
 The structure of the assignment 3 is like this
 ```
-©À©¤©¤ README.md
-©À©¤©¤ include
-©¦?? ©À©¤©¤ ASM_IR.h
-©¦?? ©À©¤©¤ acc.h
-©¦?? ©À©¤©¤ ast.h
-©¦?? ©À©¤©¤ env.h
-©¦?? ©À©¤©¤ hybrid_IR.h
-©¦?? ©¸©¤©¤ reg2stack.h
-©À©¤©¤ main.c
-©À©¤©¤ makefile
-©À©¤©¤ my_tree.txt
-©À©¤©¤ parser.y
-©À©¤©¤ run.sh
-©À©¤©¤ scanner.l
-©À©¤©¤ src
-©¦?? ©À©¤©¤ ASM_IR.c
-©¦?? ©À©¤©¤ acc.c
-©¦?? ©À©¤©¤ ast.c
-©¦?? ©À©¤©¤ env.c
-©¦?? ©À©¤©¤ hybrid_IR.c
-©¦?? ©¸©¤©¤ reg2stack.c
-©¸©¤©¤ test.cpp
+cigrid/
+â”œâ”€â”€ README.md
+â”œâ”€â”€ include/
+â”‚   â”œâ”€â”€ ASM_IR.h
+â”‚   â”œâ”€â”€ acc.h
+â”‚   â”œâ”€â”€ ast.h
+â”‚   â”œâ”€â”€ env.h
+â”‚   â”œâ”€â”€ hybrid_IR.h
+â”‚   â””â”€â”€ reg2stack.h
+â”œâ”€â”€ main.c
+â”œâ”€â”€ makefile
+â”œâ”€â”€ my_tree.txt
+â”œâ”€â”€ parser.y
+â”œâ”€â”€ run.sh
+â”œâ”€â”€ scanner.l
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ ASM_IR.c
+â”‚   â”œâ”€â”€ acc.c
+â”‚   â”œâ”€â”€ ast.c
+â”‚   â”œâ”€â”€ env.c
+â”‚   â”œâ”€â”€ hybrid_IR.c
+â”‚   â””â”€â”€ reg2stack.c
+â””â”€â”€ test.cpp
 ```
 Basically, the **include** folder and **src** folder provides some interfaces of the function to use. **Makefile** file produce a way to compile the whole project easily, and also the **run.sh** just provide a way to push to the github more easily so it has no relation to the whole project, test.cpp is just used for test.
 
